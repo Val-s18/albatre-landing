@@ -6,31 +6,31 @@ const services = [ // Ajoutez cette ligne pour définir les services
     imageSrc: '/imgcard.svg',
     title: 'Comptabilité Générale : à partir de ...€',
     text: 'Description du service 1',
-    additionalInfo: ['Infos supplémentaires 1', 'Infos supplémentaires 2', 'Infos supplémentaires 3'], 
+    additionalInfo: ['Tenue de comptabilité', 'Préparation des états financiers', 'Déclarations fiscales'], 
   },
   {
     imageSrc: '/imgcard1.svg',
     title: 'Fiscalité',
     text: 'Description du service 1',
-    additionalInfo: ['Infos supplémentaires 1', 'Infos supplémentaires 2', 'Infos supplémentaires 3'], 
+    additionalInfo: ['Optimisation de la rémunération du dirigeant avec accompagnement patrimonial'], 
   },
   {
     imageSrc: '/imgcard2.svg',
     title: 'Accompagnement',
     text: 'Description du service 1',
-    additionalInfo: ['Infos supplémentaires 1', 'Infos supplémentaires 2', 'Infos supplémentaires 3'], 
+    additionalInfo: ['Tableau de bord', 'Plaquette pour vos projets (ventes, expansion de votre activité)', 'Assistance aux direction comptable', 'Daf externalisé : directeur administratif et financier', 'Nouvelle technologie'], 
   },
   {
     imageSrc: '/imgcard3.svg',
     title: 'Création d&#39;entreprise',
     text: 'Description du service 1',
-    additionalInfo: ['Infos supplémentaires 1', 'Infos supplémentaires 2', 'Infos supplémentaires 3'], 
+    additionalInfo: ['Formalité de création', 'Assistance en matière de financement', 'Plan de trésorerie', 'Budget prévisionnel'], 
   },
   {
     imageSrc: '/imgcard4.svg',
     title: 'Juridique',
     text: 'Description du service 1',
-    additionalInfo: ['Infos supplémentaires 1', 'Infos supplémentaires 2', 'Infos supplémentaires 3'], 
+    additionalInfo: ['Elaboration de procès-verbaux d’assemblée générale', 'Création et modification de statuts, de forme juridique'], 
   },
   {
     imageSrc: '/imgcard5.svg',
@@ -42,8 +42,8 @@ const services = [ // Ajoutez cette ligne pour définir les services
 ];
 function NosServices() {
   return ( <>
-  <div className="bg-primary pb-16 ">
-    <p className="text-white text-3xl font-semibold text-center mt-20 p-10 ">Nos Services</p>
+  <div className="  text-primary ">
+    <p className=" text-4xl font-semibold text-center mt-20 p-10 ">Nos Services</p>
     <div className="flex flex-wrap  flex-col justify-center items-center  ">
     <div className="flex flex-wrap justify-center items-center gap-4">
       {services.map((service, index) => (

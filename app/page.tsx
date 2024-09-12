@@ -2,6 +2,9 @@ import Image from "next/image";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import NosServices from "@/components/NosServices";
+import Presentation from "@/components/Presentation";
+import ChoisirAlbatre from "@/components/ChoisirAlbatre";
+
 
 export default function Home() {
   return (
@@ -15,9 +18,16 @@ export default function Home() {
      <div className="mb-32 mt-24">
      <Hero />
       </div>  
-    <div>
+       <div className="pb-20 pt-20 bg-gradient-to-r from-primary to-secondary" >
+    
+      <Presentation/>
+    </div>  
+    <div className="pb-32 ">
        <NosServices/>
     </div>
+  <div>
+  <ChoisirAlbatre/>
+  </div>
       </div>
   
   
