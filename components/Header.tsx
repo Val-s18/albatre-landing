@@ -13,10 +13,11 @@ function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white ">
     <div className="flex items-center justify-between p-4 ">
       <div className="flex items-center">
-      <Image src="/albatrelogo.png" alt="Logo" width={170} height={170} className="w-auto mr-4" />
-        
+        <Link href="/">
+          <Image src="/albatrelogo.png" alt="Logo" width={170} height={170} className="w-auto mr-4" />
+          </Link>
         <nav className="hidden md:flex space-x-4 font-semibold">
-          <Link href="/" className="text-primary hover:text-gray-600">Qui sommes nous ?</Link>
+          <Link href="/equipe" className="text-primary hover:text-gray-600">Qui sommes nous ?</Link>
           <Link href="/about" className="text-primary hover:text-gray-600">Contact</Link>
         </nav>
       </div>
